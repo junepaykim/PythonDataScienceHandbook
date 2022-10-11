@@ -1,0 +1,27 @@
+{
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint-flask",
+        "--disable=C0111",
+        "--extension-pkg-whitelist=numpy"
+    ],
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName",
+    },
+    "code-runner.runInTerminal": true,
+    "cSpell.words": [
+        "facecolor",
+        "matplotlib",
+        "seaborn"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "80"
+    ],
+    "editor.formatOnSave": true,
+    "python.linting.lintOnSave": true,
+}
