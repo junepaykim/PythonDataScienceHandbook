@@ -3,8 +3,8 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
     "python.linting.pylintArgs": [
-        "--load-plugins",
         "pylint-flask",
+        "--load-plugins",
         "--disable=C0111",
         "--extension-pkg-whitelist=numpy"
     ],
