@@ -1,0 +1,10 @@
+{
+    "include": [
+        "Chapter3"
+    ],
+    "exclude": [],
+    "reportTypeshedErrors": true,
+    "reportMissingImports": false,
+    "pythonVersion": "3.10",
+    "pythonPlatform": "Windows"
+}
