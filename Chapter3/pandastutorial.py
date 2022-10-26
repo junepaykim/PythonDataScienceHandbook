@@ -19,4 +19,4 @@ pd.DataFrame(population, columns=['test1'])
 df = pd.DataFrame([[1, np.nan, 2],
                    [7, 3, 5],
                    [np.nan, 4, 6]])
-df
+print(population_dict)
