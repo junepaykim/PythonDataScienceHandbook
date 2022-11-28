@@ -30,14 +30,19 @@ def main() :
     #print(final.head())
     
     #United States 전체에 대한 데이터는 없으니 삭제
-    print(final['state'][final['area (sq. mi)'].isnull()].unique())
+    #print(final['state'][final['area (sq. mi)'].isnull()].unique())
     
     final.dropna(inplace=True)
-    #print(final.head())
+    print(final.head())
     
     #year 2010, ages = total 에 대한 데이터만 추출
     data2010 = final.query("year == 2010 & ages == 'total'")
-    print(data2010.head())
+    #print(data2010.head())
+    
+    data2010.set_index('state', inplace=True)
+    density = data2010['population'] / data2010['area (sq. mi)']
+    density.sort_values(ascending=False, inplace=True)
+    #print(density.head())
 
 def make_df(cols, ind):
     """Quickly make a DataFrame"""
