@@ -6,6 +6,7 @@ import seaborn as sns
 def main() :
     '''introduction to seaborn'''
     planets = sns.load_dataset('planets')    
+    print(planets.head)
     #print(planets.shape)
     
     print(planets.dropna().shape)
