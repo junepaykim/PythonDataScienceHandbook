@@ -3,7 +3,6 @@ from datetime import datetime
 import pandas as pd
 import numpy as np
 from dateutil import parser
-import numpy as np
 from pandas_datareader import data as pdr
 import matplotlib.pyplot as plt
 import seaborn
