@@ -15,5 +15,16 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.formatOnSave": true
-  }
+  },
+  "themeswitcher.mappings": [
+    {
+      "time": "08:00",
+      "theme": "Bluloco Light Italic"
+    },
+    {
+      "time": "17:00",
+      "theme": "Monokai Pro"
+    }
+  ],
+  "themeswitcher.utcOffset": 9
 }
